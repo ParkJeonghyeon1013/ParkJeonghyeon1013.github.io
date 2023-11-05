@@ -1,11 +1,18 @@
 ---
 layout: post
 title:  "How to Make Github Blog"
-description: An example post which shows code rendering.
-date:   2023-11-05 21:03:36 +0530
-categories: Javascript NodeJS
+description: 깃 블로그 적용하는 방법 A to Z
+date:   2023-11-05 21:03:36 +9
+categories: Git Blog
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+깃허브를 처음 사용해보는 사람으로서 갑작스레 깃블로그를 만들라는 것은 천청벽력같은 소리.. 
+
+다음과 같은 순서로 진행해보자
+1. 깃 블로그를 위한 기본 환경 세팅
+2. 깃 블로그 테마 적용 방법
+3. 깃 블로그 테마 링크로도 적용
+
+
 
 ```javascript
 const express = require('express')
