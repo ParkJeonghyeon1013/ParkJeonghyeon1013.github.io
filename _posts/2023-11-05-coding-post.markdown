@@ -6,33 +6,158 @@ date:   2023-11-05 09:03:36 +9
 categories: Git Blog
 ---
 
-다음과 같은 순서로 진행해보자
-1. 깃 블로그를 위한 기본 환경 세팅
-2. 깃 블로그 테마 적용 방법
-3. 깃 블로그 테마 링크로도 적용
+## 다음과 같은 <span style = 'background-color:#fff5b1'>순서</span>로 진행한다!
+
+**1. 깃 블로그를 위한 기본 환경 세팅**
+**2. 깃 블로그 테마 적용 방법**
+**3. 테마 적용한 블로그 배포**
+
+_________________________________
+
+## 1️⃣ 깃 블로그를 위한 기본 환경 세팅
+1. Git repository 생성
+이때 [사용자명].github.io 
+2. Ruby 설치
+3. 
 
 
 
-```javascript
-const express = require('express')
-const app = express()
- 
-app.get('/', function (req, res) {
-  res.send('Hello World')
-})
- 
-app.listen(3000)
+
+<br>
+
+## 2️⃣ 깃 블로그 테마 적용 방법
+비주얼만으로 테마를 고르던 중 마음에 드는 테마는 [hard 테마](https://github.com/sunbliss/photorama) 였으나, 테마 세팅이 너무 어려웠다💢
+
+따라서, 그나마 쉬워보였던 테마인 [texture 테마]()로 블로그를 세팅했다.
+~~그치만 texture 테마 역시 로컬에서는 잘 돌아가지만, 배포 시 많은 시행착오가 있었음;; 3번 과정 참고~~
+
+
+<br>
+
+## 3️⃣ 테마 적용한 블로그를 배포
+
+
+
+<center>
+중앙정렬은 이렇게 한다
+</center>
+
+<br>
+```sh
+git add .
+git commit -m  '커밋 메시지 내용'
+git push origin main
 ```
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam qui voluptatem excepturi nemo similique atque sapiente aperiam, dolorum deleniti! Esse quam perferendis temporibus nemo at molestias necessitatibus tenetur cupiditate sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil et voluptatibus non labore officiis assumenda, distinctio perspiciatis blanditiis nesciunt rerum molestias impedit fugiat nulla qui libero minima quasi! Libero, iure.
+___
 
-```scss
-body {
-	font-family: 'Nunito Sans', sans-serif;
-	line-height: 1.5em;
-	margin: 0;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
+
+**💨결론! 시간이 있으면 다른 테마로 갈아탈 것..**
+
+
+
+
+
+
+
+#제목
+##중간제목
+###작은 제목
+####더작은 제목
+
+
+**굵은 글씨**
+
+
+*이탤릭체*
+
+
+인용할 때
+> 블록인용은 이렇게 합니다
+
+
+순서 리스트
+1. 일번 내용
+2. 이번 내용
+3. 삼번 내용
+
+
+순서가 없는 리스트
+- First **미분** : 미분을 구하기
+- Second **적분** : 적분을 구하기
+- Third
+
+
+
+
+### Code 적고 싶다면
+한줄짜리 코드 : 키보드 상 1 왼쪽에 위치한 따옴표를 사용함
+`print("안녕")`
+
+
+여러줄의 코드 :
+```언어 이름을 써주면 해당 언어 색상으로 넣어줌
+print("이게 맞아?")
 ```
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam rerum, ratione impedit necessitatibus facere soluta odio repellat asperiores neque! Sunt iusto quia suscipit amet inventore eum, vel molestiae reiciendis alias.
+
+
+```python
+print("이게 맞아?")
+print("내가 어떻게 알아")
+```
+```c
+printf("이게 맞아?")
+printf("내가 어떻게 알아")
+```
+
+
+sh는 셸스크립트 라는 뜻
+```sh
+git push origin main
+
+
+```
+
+
+### 언더바 세 개면 가로선이 그어짐
+___
+
+
+
+
+
+
+### 링크 그리기
+[링크 이름](링크 주소)
+[유튜브 링크](www.youtube.com)
+
+
+
+### 이미지 출력
+이미지를 넣고 싶다면
+![링크가 잘못됐을 경우 출력할 텍스트](이미지 링크 혹은 폴더 안의 저장 경로)
+![링크가 잘못됐을 경우 출력할 텍스트](https://ticketimage.interpark.com/Play/image/large/23/23007154_p.gif)
+
+
+### 표 그리기
+|학번||이름|
+|222222||표|
+
+
+
+
+
+
+### 풋노트
+이것이 풋노트다. [^1]
+[^1]: 이것이 풋노트다. 주석이나 설명을 달아줄 수 있지
+
+
+### 취소선
+~~물결 두 개 사이에 쓰면 취소선을 그을 수 있음~~
+
+
+- [ ] 할일
+- [ ] 할일
+- [ ] 할일
+
