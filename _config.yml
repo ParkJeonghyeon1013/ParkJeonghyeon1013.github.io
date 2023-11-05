@@ -8,9 +8,9 @@ description: > # this means to ignore newlines until "show_exerpts:"
   Google search results) and in your feed.xml site description.
 show_excerpts: true # set to true to show excerpts on the homepage
 
-url: https://parkjeonghyeon1013.github.io/
+#url: https://parkjeonghyeon1013.github.io/
 
-remote_theme: samarsault/texture
+#remote_theme: samarsault/texture
 
 theme: texture
 
@@ -46,4 +46,4 @@ theme: texture
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-feed
+  #- jekyll-feed
