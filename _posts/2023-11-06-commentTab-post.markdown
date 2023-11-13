@@ -6,7 +6,7 @@ date:   2023-11-06 09:03:36 +9
 categories: Git Blog
 ---
 
-### 댓글창을 만들 테마는 <span style = 'background-color:#fff5b1'>Texutre</span> 아래와 같은 순서로 진행
+###  <span style = 'background-color:#fff5b1'>댓글창</span>을 만들 테마는 <span style = 'background-color:#fff5b1'>Texutre</span> 아래와 같은 순서로 진행
 
 **1. Utterances 세팅**<br>
 **2. 로컬 / 웹 배포 방법**<br>

@@ -6,7 +6,7 @@ date:   2023-11-05 09:03:36 +9
 categories: Git Blog
 ---
 
-### 다음과 같은 <span style = 'background-color:#fff5b1'>순서</span>로 진행한다!
+### <span style = 'background-color:#fff5b1'>GIT BLOG</span> 다음과 같은 순서로 진행한다!
 
 **1. 깃 블로그를 위한 기본 환경 세팅**<br>
 **2. 깃 블로그 테마 적용 방법**<br>

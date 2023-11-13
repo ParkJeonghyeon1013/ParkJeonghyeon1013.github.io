@@ -6,7 +6,7 @@ date:   2023-11-08 09:03:36 +9
 categories: Git Blog
 ---
 
-### Google Analysis 적용할 테마는 <span style = 'background-color:#fff5b1'>Texutre</span>
+### <span style = 'background-color:#fff5b1'>Google Analysis</span> 적용할 테마는 <span style = 'background-color:#fff5b1'>Texutre</span>
 
 **1. Google analysis 계정 생성**<br>
 - [Google Analytics 웹사이트](https://analytics.google.com/analytics/web/)로 들어가 계정 생성 혹은 로그인 <br>
