@@ -9,3 +9,6 @@ categories: Game Python Pygame
 야구게임에서 바꿈. 
 코드는 가져오고 
 합치기 markdown
+
+합치는 방법
+[참고 튜토리얼 영상](https://www.youtube.com/watch?v=b_DkQrJxpck)
