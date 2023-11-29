@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "15학점 죽어가는 졸업예정자"
+title:  "openSWclass에 대하여"
 description: 파이게임 만들기
 date:   2023-11-30 07:00:36 +9
 categories: Rigging MAYA
